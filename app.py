@@ -5,7 +5,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello from Flask DevOps 🚀"
+    return "git add app.py
+git commit -m "Testing webhook auto trigger from Linux" 🚀
 
 @app.route('/health')
 def health():
