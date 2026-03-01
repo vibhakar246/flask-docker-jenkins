@@ -1,17 +1,10 @@
 from flask import Flask
-import os
 
 app = Flask(__name__)
 
-@app.route('/')
-def hello():
-    return "git add app.py
-git commit -m "Testing webhook auto trigger from Linux" 🚀
+@app.route("/")
+def home():
+    return "git add app.py"
 
-@app.route('/health')
-def health():
-    return "OK", 200
-
-if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', port=port)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
