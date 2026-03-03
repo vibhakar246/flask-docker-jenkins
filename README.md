@@ -17,3 +17,4 @@ This is a simple Flask application containerized with Docker and automated with 
 - Docker
 - Jenkins
 - GitHub
+- Automation
